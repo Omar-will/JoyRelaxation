@@ -1,0 +1,150 @@
+.notre-personnel {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Roboto Flex', sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/image6.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.notre-personnel h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #f8f8f8;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.doctors-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.doctor-card {
+  background-color: rgba(98, 28, 85, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.doctor-card:hover {
+  background-color: rgba(98, 28, 85, 0.4);
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.doctor-image {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 4px solid #ff003c;
+}
+
+.doctor-info h3 {
+  font-size: 1.8em;
+  color: #ff003c;
+  margin-bottom: 10px;
+}
+
+.doctor-info p {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #f0f0f0;
+  line-height: 1.8;
+}
+
+.doctor-info ul {
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 700;
+  list-style-type: none;
+  padding: 0;
+}
+
+.doctor-info ul li {
+  font-size: 1em;
+  color: #ddd;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.doctor-info ul li::before {
+  content: "✔";
+  color: #ff003c;
+  margin-right: 10px;
+}
+
+.consult-image-container {
+  position: relative;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.consult-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ff003c;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.circle-custom {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #a31335, transparent);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .doctors-container {
+    grid-template-columns: 1fr;
+  }
+
+  .doctor-card {
+    padding: 15px;
+  }
+
+  .doctor-info h3 {
+    font-size: 1.5em;
+  }
+
+  .consult-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .circle-custom {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .notre-personnel h2 {
+    font-size: 2em;
+  }
+
+  .doctor-info p {
+    font-size: 1em;
+  }
+
+  .doctor-info ul li {
+    font-size: 0.9em;
+  }
+}

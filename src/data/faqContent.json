@@ -1,0 +1,37 @@
+{
+    "questions": [
+      {
+        "question": "Quelle est l'adresse du cabinet ?",
+        "answer": "Joy reçoit des patients aux adresses suivantes: Ancienne clinique les fougères Entrée, 2 Rue du Château d'Eau Villatte, 76200 Dieppe"
+      },
+      {
+        "question": "Comment se préparer pour une consultation ?",
+        "answer": "Il est recommandé de porter des vêtements confortables."
+      },
+      {
+        "question": "Quelles sont les horaires d'ouverture du cabinet ?",
+        "answer": "Le cabinet est ouvert du lundi au samedi, de 9h00 à 18h00. Fermé les dimanches."
+      },
+      {
+        "question": "Quels types de soins sont proposés ?",
+        "answer": "Joy propose différents types de soins, notamment des massages relaxants, thérapeutiques, sportifs et des séances de relaxation profonde."
+      },
+      {
+        "question": "Quels sont les moyens de paiement acceptés par Joy ?",
+        "answer": "Joy accepte les moyens de paiements suivants: Chèques et espèces. Cartes bancaires acceptées."
+      },
+      {
+        "question": "Quelles sont les langues parlées par Joy ?",
+        "answer": "Les langues qui peuvent être parlées avec Joy sont les suivantes : Espagnol, Anglais et Français."
+      },
+      {
+        "question":"Quels sont les avantages des séances de massage ?",
+        "answer": "Les massages peuvent aider à réduire le stress, améliorer la circulation sanguine, diminuer les tensions musculaires et favoriser un meilleur sommeil."
+      },
+      {
+        "question": "Est-ce que Joy accepte des nouveaux patients ?",
+        "answer": "Oui, Joy accepte des nouveaux patients."
+      }
+    ]
+  }
+  

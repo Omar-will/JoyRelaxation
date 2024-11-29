@@ -1,0 +1,32 @@
+{
+    "doctors": [
+      {
+        "name": "Nos Massages",
+        "bio": "Massage aux huiles chocolat effleurement corporel : 20 min à 20 euros.",
+        "additionalBio": "Massage sportif musculaire tonique énergique : 30 min à 40 euros.",
+        "additionalBio2": "Massage ayurvédique mouvement fluide et relaxant : 30 min à 40 euros.",
+        "image": "/assets/images/image2.webp"
+      },
+      
+      {
+        "name": "Nos Formules",
+        "additionalBio": "Body Body shows = corps à corps : mouvement haut du corps tout en sensualité Séance 1h sur futon au sol = 80 euros.",
+        "additionalBio3": "Formule packaging : massage express + petit déjeuner : 20 min à 20 euros.",
+        "additionalBio2": "Epilation maillot au rasoir, eau, savon : 20min à 20 euros.",
+        "image": "/assets/images/image7.webp"
+     },
+      {
+        "name": "Formules/Massages",
+        "additionalBio": "Séance en déplacement pour les anniversaire, evjf, evg soirée privée: Préparation organisation, décoration autourd'un thème, sur demande du client 1h 100 euros",
+        "additionalBio2":"Massage californien : relaxant apaisant sensoriel : 1h à 70 euros.",
+        "image": "/assets/images/image6.webp"
+         },
+         {
+          "name": "Nos Massages",
+          "bio": "Massage tantra intégral : toucher sensuel pour une évasion sensitive : 1h à 70 euros.",
+          "additionalBio3": "Massage Esalen : une approche douce et intuitive qui vise l'éveil et la sensualité corporelle, par le toucher, séance 30min 50 euros.",
+          "image": "/assets/images/image1.webp"
+           }
+    ]
+  }
+  
