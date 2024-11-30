@@ -1,7 +1,7 @@
 {
     "questions": [
       {
-        "question": "Quelle est l'adresse du cabinet ?",
+        "question": "Quelle est l'adresse du salon ?",
         "answer": "Joy reçoit des patients aux adresses suivantes: Ancienne clinique les fougères Entrée, 2 Rue du Château d'Eau Villatte, 76200 Dieppe"
       },
       {
@@ -9,7 +9,7 @@
         "answer": "Il est recommandé de porter des vêtements confortables."
       },
       {
-        "question": "Quelles sont les horaires d'ouverture du cabinet ?",
+        "question": "Quelles sont les horaires d'ouverture du salon ?",
         "answer": "Le cabinet est ouvert du lundi au samedi, de 9h00 à 18h00. Fermé les dimanches."
       },
       {

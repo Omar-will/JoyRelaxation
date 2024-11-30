@@ -21,7 +21,7 @@ function Footer() {
           <div className="modal-content">
             <span className="close" onClick={toggleContactModal}>&times;</span>
             <h2>Contact</h2>
-            <p>Coordonnées : 06 44 14 27 18</p>
+            <p>Coordonnées : 06 41 16 37 51</p>
           </div>
         </div>
       )}

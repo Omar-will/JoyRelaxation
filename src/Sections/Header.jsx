@@ -17,6 +17,7 @@ function Header() {
         </button>
         <ul className={`nav-list ${isMenuOpen ? 'open' : ''}`}>
           <li><Link to="/"><h1>Accueil</h1></Link></li>
+          <li><Link to="/Presentation"><h1>Présentation</h1></Link></li>
           <li><Link to="/notre-personnel-medical"><h1>Les prestations</h1></Link></li>
           <li><Link to="/les-locaux"><h1>Les Locaux</h1></Link></li>
           <li><Link to="/Acces"><h1>Accès</h1></Link></li>

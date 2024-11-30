@@ -1,0 +1,157 @@
+.presentation-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  .header-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .header-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header-section p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .about-section {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-image img {
+    width: 1450px;
+    height: 600px;
+    border-radius: 10px;
+  }
+  
+  .services-section {
+    background-color: #f1f1f1;
+    padding: 50px 20px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .service-card h3 {
+    margin-bottom: 10px;
+    color: #871825; /* Couleur de ton choix */
+  }
+  
+  .contact-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .contact-section a {
+    color: #871825;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .about-image-with-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6); // Voile semi-transparent
+      border-radius: 10px;
+  
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: #f8f9fa;
+      }
+  
+      p {
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 1.6;
+      }
+    }
+  }
+  @media (max-width: 1300px) {
+    .about-image-with-text .text-overlay {
+      padding: 15px;
+      background-color: rgba(0, 0, 0, 0.8); // Rendre le voile un peu plus visible pour les petits écrans
+  
+      h2 {
+        font-size: 1.5rem; // Réduction de la taille de la police
+      }
+  
+      p {
+        font-size: 0.9rem; // Réduction de la taille du texte
+        line-height: 1.4;
+      }
+    }
+  }
+  
+  // Responsive adjustments for the overlay
+@media (max-width: 800px) {
+  .about-image-with-text .text-overlay {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8); // Rendre le voile un peu plus visible pour les petits écrans
+
+    h2 {
+      font-size: 1.5rem; // Réduction de la taille de la police
+    }
+
+    p {
+      font-size: 0.5rem; // Réduction de la taille du texte
+      line-height: 1.4;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image-with-text .text-overlay {
+    padding: 10px;
+    width: 90%; // S'adapte mieux à l'écran
+    background-color: rgba(0, 0, 0, 0.9); // Encore plus visible sur très petit écran
+
+    h2 {
+      font-size: 1.2rem; // Police adaptée pour les très petits écrans
+    }
+
+   
+  }
+}

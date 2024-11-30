@@ -163,38 +163,8 @@
     top: 20px;
     right: 20px;
   }
-  
 
   
-  @media (max-width: 522px) {
-    .home-content {
-      .triangle {
-        width: 0;
-        height: 0;
-        position: absolute;
-        right: 0; 
-        top: 70%; 
-        margin-top: 10rem; 
-        margin-bottom: 3rem; 
-        border-left: 300px solid transparent; 
-        border-right: 0 solid transparent;
-        border-bottom: 200px solid #9d1738; 
-      }
-  
-      .triangle2 {
-        width: 0;
-        height: 0;
-        position: absolute;
-        left: 0; 
-        top: 70%; 
-        margin-top: 10rem; 
-        margin-bottom: 3rem;
-        border-left: 0 solid transparent;
-        border-right: 300px solid transparent;
-        border-bottom: 200px solid #9d1738; 
-      }
-    }
-  }
   @media (max-width: 795px) {
     .text-between { 
       font-size: 1.1rem;

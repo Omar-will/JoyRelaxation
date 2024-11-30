@@ -37,16 +37,12 @@ function Home() {
           <LazyImage
             className="logo"
             src="/assets/images/joy.webp"
-            alt="Ostéopathe logo"
+            alt="massage logo"
           />
           <div className="carrouselContainer">
             <div className="textContainer">
               <h1>{content.osteopath.name}</h1>
-              <LazyImage
-                src="/assets/images/osté-removebg.png"
-                alt="Ostéopathe Logo"
-                className="osteoLogo"
-              />
+              
               <p>{content.osteopath.slogan}</p>
             </div>
             <button className="prevButton" onClick={prevImage}>❮</button>
@@ -64,6 +60,7 @@ function Home() {
           <div className="triangle"></div>
           <div className="triangle2"></div>
         </section>
+        
         <h2 className="text-between">Présentation du Salon à Dieppe</h2>
         <div className="text-content">
           <p>{content.osteopath.address}</p>

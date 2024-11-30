@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Sections/Header';
 import Footer from './Sections/Footer';
 import Home from './Pages/Home.jsx';
+import PresentationPage from "./Pages/Presentation";
 import NotrePersonnel from './Pages/NotrePersonnel';
 import LesLocaux from './Pages/LesLocaux.jsx';
 import Acces from './Pages/Acces.jsx';
@@ -17,6 +18,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Presentation" element={<PresentationPage />} />
           <Route path="/notre-personnel-medical" element={<NotrePersonnel />} />
           <Route path="/les-locaux" element={<LesLocaux />} />
           <Route path="/Acces" element={<Acces />} />
