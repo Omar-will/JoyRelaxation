@@ -164,6 +164,53 @@
     right: 20px;
   }
 
+  .imageTropical {
+    position: relative;
+    img {
+      top: 10%;
+      right: 80%;
+      width: 100%;
+      height: 600px;
+      display: block;
+      object-fit: scale-down;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 560px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+       // Optionnel : ajouter un fond semi-transparent
+      color: white; // Assurez-vous que le texte est visible
+      padding: 20px;
+      
+      .text-between {
+        top: 28%;
+        left: 49%;
+        font-size: 1.8rem;
+      }
+      
+      .text-content {
+        p {
+          color: black;
+          margin: 0.5rem 0;
+          font-weight: 700;
+          margin-right: 1.5rem;
+          font-size: 1.1rem;
+          
+        }
+      }
+    }
+  }
+  
+
+
   
   @media (max-width: 795px) {
     .text-between { 
@@ -186,12 +233,102 @@
     }
   }
 
+  @media (max-width: 600px) {
+    .imageTropical {
+      position: relative;
+      img {
+        top: 10%;
+        right: 80%;
+        width: 100%;
+        height: 600px;
+        display: block;
+        object-fit: scale-down;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 560px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white; // Assurez-vous que le texte est visible
+        padding: 20px;
+        
+        .text-between {
+          top: 28%;
+          left: 49%;
+          font-size: 1.4rem;
+        }
+        
+        .text-content {
+          p {
+            color: black;
+            margin: 0.5rem 0;
+            font-weight: 700;
+            margin-right: 1.5rem;
+            font-size: 0.9rem;
+            
+          }
+        }
+      }
+    }
+  }
+
   @media (max-width: 445px) {
     .elfsight-app-abace9ca-0b22-4273-ab94-a4d530d67ef9 {
       width: 60%; 
       height: 300px; 
       margin-left: 4.5rem;
       
+    }
+    .imageTropical {
+      position: relative;
+      img {
+        top: 10%;
+        right: 80%;
+        width: 100%;
+        height: 600px;
+        display: block;
+        object-fit: scale-down;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 560px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.4); // Optionnel : ajouter un fond semi-transparent
+        color: white; // Assurez-vous que le texte est visible
+        padding: 20px;
+        
+        .text-between {
+          top: 35%;
+          left: 49%;
+          font-size: 1.1rem;
+        }
+        
+        .text-content {
+          p {
+            color: black;
+            margin: 0.5rem 0;
+            font-weight: 700;
+            margin-right: 1.5rem;
+            font-size: 0.7rem;
+            
+          }
+        }
+      }
     }
   }
   @media (max-width: 323px) {

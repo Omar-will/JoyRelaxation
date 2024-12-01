@@ -3,10 +3,10 @@ import '../Scss/LesLocaux.scss';
 
 
 const images = [
-  { src: '../assets/images/image1.webp', alt: 'Salle 1' },
-  { src: '../assets/images/image1.webp', alt: 'Salle 2' },
-  { src: '../assets/images/image1.webp', alt: 'Salle 3' },
-  { src: '../assets/images/image1.webp', alt: 'Salle 4' },
+  { src: '../assets/images/image10.webp', alt: 'Salle 1' },
+  { src: '../assets/images/image11.webp', alt: 'Salle 2' },
+  { src: '../assets/images/image12.webp', alt: 'Salle 3' },
+  { src: '../assets/images/image17.webp', alt: 'Salle 4' },
   { src: '../assets/images/local5.webp', alt: 'Salle 5' },
   { src: '../assets/images/local6.webp', alt: 'Salle 6' },
   { src: '../assets/images/local7.webp', alt: 'Salle 7' },

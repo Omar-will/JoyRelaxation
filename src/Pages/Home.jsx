@@ -60,14 +60,19 @@ function Home() {
           <div className="triangle"></div>
           <div className="triangle2"></div>
         </section>
-        
-        <h2 className="text-between">Présentation du Salon à Dieppe</h2>
-        <div className="text-content">
-          <p>{content.osteopath.address}</p>
-          {content.osteopath.hours.map((hour, index) => (
-            <p key={index}>{hour.days} de {hour.hours}</p>
-          ))}
-        </div>
+        <div className="imageTropical">
+  <img src="/assets/images/image0.webp" alt="À propos de nous" />
+  <div className="overlay">
+    <h2 className="text-between">Présentation du Salon à Dieppe</h2>
+    <div className="text-content">
+      <p>{content.osteopath.address}</p>
+      {content.osteopath.hours.map((hour, index) => (
+        <p key={index}>{hour.days} de {hour.hours}</p>
+      ))}
+    </div>
+  </div>
+</div>
+
         <div className="elfsight-app-74657303-7b24-45bd-aefc-0814ddc81f6e" data-elfsight-app-lazy></div>
       </main>
     </div>
