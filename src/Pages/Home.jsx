@@ -69,6 +69,7 @@ function Home() {
       {content.osteopath.hours.map((hour, index) => (
         <p key={index}>{hour.days} de {hour.hours}</p>
       ))}
+      <p>Coordonnées : 07 63 72 80 37</p>
     </div>
   </div>
 </div>
