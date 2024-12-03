@@ -8,12 +8,6 @@
     color: #333;
   }
 
-  p {
-    font-size: 1.2em;
-    margin-bottom: 40px;
-    color: #666;
-  }
-
   .leaflet-container {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -22,31 +16,6 @@
     margin-bottom: 3rem;
   }
 
-  .image-with-caption {
-    position: relative;
-    text-align: center;
-    margin-bottom: 40px;
-    display: inline-block;
-
-    .captioned-image {
-      width: 50%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
-
-    .caption {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: rgba(0, 0, 0, 0.6);
-      color: #fff;
-      padding: 5px 10px;
-      font-size: 1.2em;
-      border-radius: 8px;
-      text-align: center;
-    }
-  }
   .gallery {
     display: flex;
     flex-wrap: wrap; // Permet le retour à la ligne si l'espace manque
@@ -54,26 +23,52 @@
     gap: 20px; // Espace entre les images
     margin-bottom: 120px;
   }
-  
+
   .image-with-caption {
     text-align: center;
     width: 200px; // Taille fixe pour chaque image
     flex: 1 1 auto; // Permet une mise en page flexible
-  
+
+    // Rendre l'image flexible selon la taille de l'écran
     .captioned-image {
       width: 100%;
+      max-width: 200px; // Limite la taille maximale de l'image
       height: auto;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
-  
+
     .caption {
       margin-top: 8px;
-      color: #d2cccc;
+      color: #000000;
       font-size: 1em;
       font-weight: 500;
       text-align: center;
+      background-color: #afafaf; // Fond gris clair
+      padding: 10px;
+      border-radius: 5px; // Bords arrondis
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Ombre subtile
     }
   }
-  
+
+  // Adaptation en responsive pour les petits écrans
+  @media (max-width: 768px) {
+    .gallery {
+      justify-content: flex-start; // Éviter de centrer les images sur les petits écrans
+    }
+
+    .image-with-caption {
+      width: 45%; // Pour avoir deux images par ligne
+      .captioned-image {
+        max-width: 100%; // Assure que l'image s'ajuste à la taille de son container
+      }
+    }
+  }
+
+  // Adaptation en responsive pour les écrans encore plus petits
+  @media (max-width: 480px) {
+    .image-with-caption {
+      width: 90%; // Prendre toute la largeur sur les très petits écrans
+    }
+  }
 }
